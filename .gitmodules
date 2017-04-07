@@ -1,0 +1,4 @@
+[submodule "lib/protobuf"]
+	path = lib/protobuf
+	url = git@github.com:google/protobuf.git
+	branch = 3.2.x
