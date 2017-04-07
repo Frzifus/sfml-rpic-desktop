@@ -2,3 +2,7 @@
 	path = lib/protobuf
 	url = git@github.com:google/protobuf.git
 	branch = 3.2.x
+[submodule "lib/SFML"]
+	path = lib/SFML
+	url = git@github.com:SFML/SFML.git
+	branch = 2.4.x
