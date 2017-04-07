@@ -1,0 +1,7 @@
+-I./
+-I./../lib/SFML/include
+-std=c++14
+-Wall
+-Wextra
+-Wno-deprecated-declarations
+-pedantic
