@@ -1,0 +1,8 @@
+-I./../../src/
+-I./../../lib/SFML/include/
+-I./../../lib/protobuf/src/
+-std=c++14
+-Wall
+-Wextra
+-Wno-deprecated-declarations
+-pedantic
