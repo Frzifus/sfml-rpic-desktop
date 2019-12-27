@@ -48,6 +48,12 @@ buildDep:
 	@echo Build dependencies
 	./builddep.sh
 
+image:
+	docker build -t rpic .
+
+ci_build: image
+	docker run --rm -it -v ${PWD}:/rpic  sfml:latest
+
 clean:
 	rm -f $(shell find build/ -name '*.o')
 
